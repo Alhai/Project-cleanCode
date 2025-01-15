@@ -12,7 +12,7 @@
 1. **Cloner le dépôt :**
 
    ```bash
-   git clone git@github.com:Alhai/Project-cleanCode.git
+   git clone git@github.com:Alhai/blog-clean-code.git
    cd project-cleanCode
 
    ```
@@ -21,18 +21,18 @@
 
    ```bash
     npm install
-
    ```
 
 3. **Configurer les variables d'environnement :**
 
+   ```bash
    Copiez le fichier .env.example en .env :
+   ```
 
 4. **Compiler le projet :**
 
    ```bash
         npm run build
-
    ```
 
 5. **Démarrer le serveur :**
