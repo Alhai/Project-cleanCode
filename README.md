@@ -12,7 +12,7 @@
 1. **Cloner le dépôt :**
 
    ```bash
-   git clone <votre-url-depot>
+   git clone git@github.com:Alhai/Project-cleanCode.git
    cd project-cleanCode
 
    ```
