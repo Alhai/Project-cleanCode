@@ -1,6 +1,15 @@
-import { IArticle, IComment } from '../types/interfaces';
 import mongoose, { Document, Schema } from 'mongoose';
 
+import { IComment } from '../types/interfaces';
+
+export interface IArticle extends Document {
+    title: string;
+    content: string;
+    author: string;
+    likes: number;
+    comments: IComment[];
+    createdAt: Date;
+  }
 const CommentSchema = new Schema<IComment>({
   author: { 
     type: String, 
