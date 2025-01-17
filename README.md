@@ -32,7 +32,7 @@
 4. **Compiler le projet :**
 
    ```bash
-        npm run build
+    npm run build
    ```
 
 5. **Démarrer le serveur :**
