@@ -121,4 +121,4 @@ test:ci : Exécute les tests en mode CI
 - **services/** : Services pour les opérations spécifiques
 - **utils/** : Fonctions utilitaires réutilisables
 - **tests/** : Tests unitaires et d'intégration
--**dist/** : Dossier généré contenant le code compilé
+- **dist/** : Dossier généré contenant le code compilé
